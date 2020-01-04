@@ -1,0 +1,233 @@
+html {
+    
+}
+
+body {
+    
+}
+/* For all pages of header */
+header {
+    margin: 0%;
+    top: 0%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    background-color: #2a5587;
+    padding: 4px;
+    font-size: 30px;
+    color: #f2f5f7;
+    font-family: Calibri;
+    text-indent: 1%;
+}
+/*For all pages of image header*/
+img {
+    float: 40%;
+    position: fixed;
+    top: 0%;
+}
+/*For all pages of navigation */
+nav a {
+    text-align: right;
+    margin-left: 89%;
+    color: #fcfcfc;
+    position: fixed;
+    top: 1%;
+    font-family: Calibri;
+    font-size: 20px;
+}
+/*For favorite page link*/
+#favorite {
+    margin-left: 94.2%;
+    font-family: Calibri;
+}
+
+/*For admin&customer&editmenu heading*/
+h3 {
+    top: 11%;
+    position: fixed;
+    left: 3.3%;
+    font-size: 28px;
+    font-family: Calibri;
+}
+/*For all the other headings*/
+h2 {
+    top: 9%;
+    position: fixed;
+    left: 3.3%;
+    font-size: 28px;
+    font-family: Calibri;
+}
+/*For edit movie status,favorites empty and favorites page heading*/
+#heading {
+    top: 9.5%;
+    position: fixed;
+    left: 3.3%;
+    font-size: 29px;
+    font-family: Calibri;
+}
+/*For admin and customer page table*/
+#movie-list {
+    top: 18%;
+    left: 3.3%;
+	font-size: 18px;
+    position: fixed;
+    border: 0px solid;
+    width: 40%;
+    table-layout: 50%;
+}
+
+#movie-list th {
+    font-family: Calibri;
+}
+
+#movie-list a {
+    color: #302a30;
+}
+/*For favorite page table*/
+#favorite-menu a {
+    color: #302a30;
+}
+
+#favorite-menu {
+    width: 40%;
+    position: fixed;
+    top: 22%;
+    left: 3.3%;
+    border: 0px solid;
+	font-size:18px;
+    font-family: Calibri;
+}
+
+#favorite-menu label {
+     font-family: Calibri;
+}
+/*For favorite page No.of favorites label*/
+#no-of-favorites {
+    top: 34%;
+    position: fixed;
+     font-family: Calibri;
+}
+/*For favorite notification page No. of favorites label*/
+#no-of-favorites1 {
+    top: 32%;
+    position: fixed;
+}
+/*For all pages of footer*/
+footer {
+    bottom: 0%;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    background-color: #9e9d9b;
+    padding: 20px;
+    font-size: 17px;
+	font-family: Calibri;
+	text-indent: 0.1%;
+}
+/*For name label in edit-movie table*/
+#edit-movie {
+    top: 20%;
+    position: fixed;
+    left: 3.3%;
+    font-family: Calibri;
+}
+
+#edit-movie label {
+    color: #55595e;
+	font-size:20px;
+    font-family: Calibri;
+}
+/*For other label in edit-movie table*/
+#edit-movie1 {
+    top: 27.3%;
+    position: fixed;
+    left: 3.3%;
+    font-family: Calibri;
+}
+
+#edit-movie1 label {
+    color: #55595e;
+    font-family: Calibri;
+	font-size:20px;
+}
+/*For edit movie page save button*/
+#submit {
+    width: 7%;
+    height: 5%;
+	top:40%;
+    position: fixed;
+    background-color: #2a5587;
+    color: #fcfcfc;
+	border: 0px solid;
+}
+/*For edit movie page checkbox button*/
+#checkbox {
+	top:35%;
+	position:fixed;
+}
+#checkbox label {
+	font-weight:bold;
+	font-family: Calibri;
+}
+/*For all the paragraph tags*/
+p {
+    color: #37bf7b;
+    top: 20%;
+    left: 3.3%;
+    position: fixed;
+    font-size: 20px;
+    font-family: Calibri;
+}
+/*For customer notification table*/
+#movie-status {
+    top: 20%;
+    left: 3.3%;
+    position: fixed;
+    width: 40%;
+	font-size:18px;
+    font-family: Calibri;
+}
+
+#movie-status a {
+    color: #302a30;
+     font-family: Calibri;
+}
+
+#movie-status th, td {
+	 font-family: Calibri;
+}
+/*For customer notification paragraph*/
+#customer {
+    color: #37bf7b;
+    top: 13%;
+    left: 14.5%;
+    position: fixed;
+	font-size:22px;
+    font-family: Calibri;
+}
+/*For favorite notification paragraph*/
+#customer1 {
+    color: #37bf7b;
+    top: 14%;
+    left: 7%;
+    position: fixed;
+	font-size: 21.5px;
+    font-family: Calibri;
+}
+/*For favorite-empty paragraph*/
+#favorite-empty {
+    color: #9e9d9b;
+    position: fixed;
+    top: 18%;
+    font-family: Calibri;
+}
+
+#favorite-empty a {
+    color: #067ebf;
+}
+/*For edit status page paragraph*/
+#edit-status {
+    top: 18%;
+	font-size:23px;
+    font-family: Calibri;
+}
