@@ -28,7 +28,7 @@ img {
 /*For all pages of navigation */
 nav a {
     text-align: right;
-    margin-left: 89%;
+    margin-left: 87%;
     color: #fcfcfc;
     position: fixed;
     top: 1%;
@@ -37,7 +37,7 @@ nav a {
 }
 /*For favorite page link*/
 #favorite {
-    margin-left: 94.2%;
+    margin-left: 93%;
     font-family: Calibri;
 }
 
@@ -67,13 +67,12 @@ h2 {
 }
 /*For admin and customer page table*/
 #movie-list {
-    top: 18%;
+    top: 23%;
     left: 3.3%;
-	font-size: 18px;
+    font-size: 18px;
     position: fixed;
     border: 0px solid;
-    width: 40%;
-    table-layout: 50%;
+    width: 42%;
 }
 
 #movie-list th {
@@ -89,29 +88,27 @@ h2 {
 }
 
 #favorite-menu {
-    width: 40%;
+    width: 30%;
     position: fixed;
     top: 22%;
     left: 3.3%;
     border: 0px solid;
-	font-size:18px;
+    font-size: 18px;
     font-family: Calibri;
 }
 
 #favorite-menu label {
-     font-family: Calibri;
+    font-family: Calibri;
 }
 /*For favorite page No.of favorites label*/
 #no-of-favorites {
     top: 34%;
+    left: 12%;
     position: fixed;
-     font-family: Calibri;
-}
-/*For favorite notification page No. of favorites label*/
-#no-of-favorites1 {
-    top: 32%;
+    font-family: Calibri;
     position: fixed;
 }
+
 /*For all pages of footer*/
 footer {
     bottom: 0%;
@@ -121,8 +118,8 @@ footer {
     background-color: #9e9d9b;
     padding: 20px;
     font-size: 17px;
-	font-family: Calibri;
-	text-indent: 0.1%;
+    font-family: Calibri;
+    text-indent: 0.1%;
 }
 /*For name label in edit-movie table*/
 #edit-movie {
@@ -134,7 +131,7 @@ footer {
 
 #edit-movie label {
     color: #55595e;
-	font-size:20px;
+    font-size: 20px;
     font-family: Calibri;
 }
 /*For other label in edit-movie table*/
@@ -148,26 +145,27 @@ footer {
 #edit-movie1 label {
     color: #55595e;
     font-family: Calibri;
-	font-size:20px;
+    font-size: 20px;
 }
 /*For edit movie page save button*/
 #submit {
     width: 7%;
     height: 5%;
-	top:40%;
+    top: 40%;
     position: fixed;
     background-color: #2a5587;
     color: #fcfcfc;
-	border: 0px solid;
+    border: 0px solid;
 }
 /*For edit movie page checkbox button*/
 #checkbox {
-	top:35%;
-	position:fixed;
+    top: 35%;
+    position: fixed;
 }
+
 #checkbox label {
-	font-weight:bold;
-	font-family: Calibri;
+    font-weight: bold;
+    font-family: Calibri;
 }
 /*For all the paragraph tags*/
 p {
@@ -184,17 +182,17 @@ p {
     left: 3.3%;
     position: fixed;
     width: 40%;
-	font-size:18px;
+    font-size: 18px;
     font-family: Calibri;
 }
 
 #movie-status a {
     color: #302a30;
-     font-family: Calibri;
+    font-family: Calibri;
 }
 
 #movie-status th, td {
-	 font-family: Calibri;
+    font-family: Calibri;
 }
 /*For customer notification paragraph*/
 #customer {
@@ -202,7 +200,7 @@ p {
     top: 13%;
     left: 14.5%;
     position: fixed;
-	font-size:22px;
+    font-size: 22px;
     font-family: Calibri;
 }
 /*For favorite notification paragraph*/
@@ -211,7 +209,7 @@ p {
     top: 14%;
     left: 7%;
     position: fixed;
-	font-size: 21.5px;
+    font-size: 21.5px;
     font-family: Calibri;
 }
 /*For favorite-empty paragraph*/
@@ -228,6 +226,16 @@ p {
 /*For edit status page paragraph*/
 #edit-status {
     top: 18%;
-	font-size:23px;
+    font-size: 23px;
     font-family: Calibri;
+}
+
+#favorite-status {
+    color: #37bf7b;
+    top: 14%;
+    left: 10%;
+    position: fixed;
+    font-size: 21.5px;
+    font-family: Calibri;
+    text-align: center;
 }
